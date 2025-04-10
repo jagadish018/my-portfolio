@@ -13,13 +13,14 @@ const Projects = () => {
       emoji: "****",
       title: "Fileless Malware Detection",
       projectUrl: "https://stacklane.co/",
-      description: "Developed ML model when detects Fileless Malware",
+      description: "Developed ML model using Random Forest. It detects Fileless Malware",
     },
     {
       emoji: "****",
       title: "Colon Cancer Prediction",
       projectUrl: "https://stacklane.co/",
-      description: "Developed ML model when detects Colon Cancer",
+      description:
+        "Developed Deep learning model using ResNet50 + Streamlit . It detects Colon Cancer",
     },
     {
       emoji: "****",
