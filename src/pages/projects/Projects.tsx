@@ -3,27 +3,27 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const details = [
     {
-      emoji: "****",
+      emoji: "🌐",
       title: "Hackernews-Server",
       projectUrl: "https://github.com/jagadish018/hackernews-server",
       description: "Developed Hackernews server clone",
     },
     {
-      emoji: "****",
+      emoji: "🐞",
       title: "Fileless Malware Detection",
       projectUrl: "https://github.com/jswaroop123/FileLess_Malware",
       description:
         "Developed ML model using Random Forest. It detects Fileless Malware",
     },
     {
-      emoji: "****",
+      emoji: "🎗️",
       title: "Colon Cancer Prediction",
       projectUrl: "https://github.com/jagadish018/colon_cancer_prediction",
       description:
         "Developed Deep learning model using ResNet50 + Streamlit . It detects Colon Cancer",
     },
     {
-      emoji: "****",
+      emoji: "💻⚙️",
       title: "CPU Scedule Visualizer",
       projectUrl:
         "https://github.com/jagadish018/CPU-Scheduler-Algo-Visualizer",
