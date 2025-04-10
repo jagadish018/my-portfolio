@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 import About from "../about/About";
 import Connect from "../Connect/Connect";
-import Education from "../Eduction/Eduction";
+import Education from "../education/Eduction";
 import Experience from "../experience/Experience";
 
 import Hero from "../hero/Hero";
