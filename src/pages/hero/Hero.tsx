@@ -33,7 +33,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-3 max-w-screen-md mx-auto">
+    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-3 max-w-screen-md mx-auto border-2 border-amber-50 ">
      
       
         <img
