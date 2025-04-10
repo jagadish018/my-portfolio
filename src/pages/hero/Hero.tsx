@@ -45,7 +45,7 @@ const Hero = () => {
           Jagadish C K (Fullstack Developer)
         </h1>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 items-center sm:items-center">
           <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
             Developer
           </button>
@@ -54,7 +54,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3 items-center sm:items-center">
           {socialLinks.map((item, index) => (
             <a
               key={index}
