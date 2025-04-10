@@ -33,14 +33,14 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full px-6 sm:px-10 py-6 flex flex-col sm:flex-row items-center justify-center gap-6 max-w-screen-md mx-auto">
+    <div className="w-full px-6 sm:px-10 py-6 flex flex-col  sm:flex-row items-center justify-center gap-6 max-w-screen-md mx-auto">
       <img
         src="/profile.JPG"
         alt="Jagadish"
-        className="rounded-full w-32 h-32 object-cover border p-1"
+        className="rounded-full w-35 h-35 object-cover border p-1"
       />
 
-      <div className="flex flex-col items-start sm:items-start w-full gap-3">
+      <div className="flex flex-col items-center sm:items-center w-full gap-3">
         <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center sm:text-left">
           Jagadish C K (Fullstack Developer)
         </h1>
@@ -54,7 +54,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-3 items-center sm:items-center">
+        <div className="flex flex-wrap gap-3 ">
           {socialLinks.map((item, index) => (
             <a
               key={index}
