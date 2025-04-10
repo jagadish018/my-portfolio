@@ -33,13 +33,13 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-3 max-w-screen-md mx-auto border-2 border-amber-50 ">
+    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
      
       
         <img
           src="/profile.JPG"
           alt="Jagadish"
-          className="rounded-full w-35 h-35 object-cover border p-1"
+          className="rounded-full w-38 h-38 object-cover border p-1"
         />
       
 
@@ -49,7 +49,7 @@ const Hero = () => {
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-          <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl cursor-pointer">
+          <button className="text-sm text-blue-500 px-3 py-1 rounded-xl cursor-pointer">
             Developer
           </button>
           

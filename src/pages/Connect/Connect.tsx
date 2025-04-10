@@ -2,7 +2,7 @@ import CurrentTimeIST from "../../components/CurrentTimeIST";
 
 const Connect = () => {
   return (
-    <div className="w-full max-w-screen-md mx-auto border-2 border-amber-50 px-4 py-2">
+    <div className="w-full max-w-screen-md mx-auto  px-4 py-2">
       {/* Flex row container */}
       <div className="flex flex-row   gap-5">
         {/* Left - Work Experience */}

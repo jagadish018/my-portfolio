@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-10">
           <Hero />
           <About />
           <Experience />
