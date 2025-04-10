@@ -5,27 +5,28 @@ const Projects = () => {
     {
       emoji: "****",
       title: "Hackernews-Server",
-      projectUrl: "https://stacklane.co/",
+      projectUrl: "https://github.com/jagadish018/hackernews-server",
       description: "Developed Hackernews server clone",
     },
     {
       emoji: "****",
       title: "Fileless Malware Detection",
-      projectUrl: "https://stacklane.co/",
+      projectUrl: "https://github.com/jswaroop123/FileLess_Malware",
       description:
         "Developed ML model using Random Forest. It detects Fileless Malware",
     },
     {
       emoji: "****",
       title: "Colon Cancer Prediction",
-      projectUrl: "https://stacklane.co/",
+      projectUrl: "https://github.com/jagadish018/colon_cancer_prediction",
       description:
         "Developed Deep learning model using ResNet50 + Streamlit . It detects Colon Cancer",
     },
     {
       emoji: "****",
       title: "CPU Scedule Visualizer",
-      projectUrl: "https://stacklane.co/",
+      projectUrl:
+        "https://github.com/jagadish018/CPU-Scheduler-Algo-Visualizer",
       description: "Developed Algorithm visualizer using React + TailwindCSS",
     },
   ];

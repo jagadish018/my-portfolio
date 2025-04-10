@@ -34,14 +34,11 @@ const Hero = () => {
 
   return (
     <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
-     
-      
-        <img
-          src="/profile.JPG"
-          alt="Jagadish"
-          className="rounded-full w-38 h-38 object-cover border p-1"
-        />
-      
+      <img
+        src="/profile.JPG"
+        alt="Jagadish"
+        className="rounded-full w-38 h-38 object-cover border p-1"
+      />
 
       <div className="flex flex-col items-center md:items-start w-full gap-5 p-2">
         <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
@@ -49,10 +46,9 @@ const Hero = () => {
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-          <button className="text-sm text-blue-500 px-3 py-1 rounded-xl cursor-pointer border border-blue-500">
+          <button className="text-sm text-blue-500 transition duration-150 ease-in-out px-3 py-1 rounded-xl cursor-pointer border border-blue-500">
             Developer
           </button>
-          
         </div>
 
         <div className="flex flex-wrap gap-3 justify-center md:justify-start">

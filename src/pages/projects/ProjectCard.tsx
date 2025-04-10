@@ -20,7 +20,7 @@ const ProjectCard = ({
           href={projectUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-amber-50 hover:text-amber-100 px-2 bg-purple-500 rounded-3xl cursor-pointer"
+          className="text-amber-50 hover:text-amber-100 px-2  bg-purple-500 rounded-3xl cursor-pointer"
         >
           {title}
         </a>
