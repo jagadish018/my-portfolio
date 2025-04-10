@@ -6,7 +6,7 @@ interface ExperienceCardProps {
   description: string;
 }
 
-const ExperienceCard = ({
+const Card = ({
   role,
   company,
   companyUrl,
@@ -37,4 +37,4 @@ const ExperienceCard = ({
   );
 };
 
-export default ExperienceCard;
+export default Card;

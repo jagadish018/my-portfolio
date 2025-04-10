@@ -1,5 +1,4 @@
-import ExperienceCard from "./ExperienceCard";
-
+import Card from "./Card";
 
 const Experience = () => {
   const details = [
@@ -9,7 +8,7 @@ const Experience = () => {
       companyUrl: "https://stacklane.co/",
       duration: "Mar - Jun 2025",
       description: "Developed Hackernews server clone",
-    }
+    },
   ];
 
   return (
@@ -21,7 +20,7 @@ const Experience = () => {
       </div>
       <div className="flex flex-col gap-4 justify-evenly py-2 px-4">
         {details.map((item, index) => (
-          <ExperienceCard
+          <Card
             key={index}
             role={item.role}
             company={item.company}
