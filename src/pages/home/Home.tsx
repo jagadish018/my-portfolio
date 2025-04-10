@@ -1,9 +1,10 @@
 import Container from "../../components/Container";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
+
 import About from "../about/About";
 import Connect from "../Connect/Connect";
 import Education from "../Eduction/Eduction";
-import Experience from "../Experience/Experience";
+import Experience from "../experience/Experience";
 
 import Hero from "../hero/Hero";
 import Projects from "../projects/Projects";
