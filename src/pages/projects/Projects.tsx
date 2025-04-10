@@ -31,13 +31,18 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-full  flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  px-2 ">
+    <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto px-2">
+         {" "}
       <div>
+             {" "}
         <h1 className="text-white md:w-35 md:sticky-10 font-medium text-start md:text-center">
-          Projects
+                  Projects      {" "}
         </h1>
+           {" "}
       </div>
-      <div className="grid grid-cols-2  gap-4 justify-evenly py-2 px-4">
+         {" "}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-evenly py-2 px-4">
+             {" "}
         {details.map((item, index) => (
           <ProjectCard
             key={index}
@@ -47,9 +52,12 @@ const Projects = () => {
             description={item.description}
           />
         ))}
+           {" "}
       </div>
+       {" "}
     </div>
   );
+
 };
 
 export default Projects;
