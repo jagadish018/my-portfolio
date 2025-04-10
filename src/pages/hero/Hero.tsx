@@ -43,7 +43,7 @@ const Hero = () => {
         />
       
 
-      <div className="flex flex-col items-center md:items-start w-full gap-3">
+      <div className="flex flex-col items-center md:items-start w-full gap-5 p-2">
         <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
           Jagadish C K (Fullstack Developer)
         </h1>
