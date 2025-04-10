@@ -3,21 +3,12 @@ import ExperienceCard from "./ExperienceCard";
 const Experience = () => {
   const details = [
     {
-      role: "Senior Software Engineer",
-      company: "INDMoney",
-      companyUrl: "https://indmoney.com",
-      duration: "2022 - 2023",
-      description:
-        "Developed key features of INDMoney's flagship app and contributed across several verticals.",
-    },
-    {
-      role: "Senior Software Engineer",
-      company: "INDMoney",
-      companyUrl: "https://indmoney.com",
-      duration: "2022 - 2023",
-      description:
-        "Developed key features of INDMoney's flagship app and contributed across several verticals.",
-    },
+      role: "Fullstack Developer Intern",
+      company: "Stacklane",
+      companyUrl: "https://stacklane.co/",
+      duration: "Mar - Jun 2025",
+      description: "Developed Hackernews server clone",
+    }
   ];
 
   return (
