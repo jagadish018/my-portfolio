@@ -20,11 +20,11 @@ const EducationCard = ({
           {degree}
         </h2>
 
-        <span className="text-sm text-white bg-gray-400 px-2 rounded-3xl">
+        <span className="text-sm text-white bg-gray-600 px-2 rounded-3xl">
           {branch}
         </span>
 
-        <span className="text-sm text-white bg-gray-400 px-2 rounded-3xl">
+        <span className="text-sm text-white bg-gray-600 px-2 rounded-3xl">
           {duration}
         </span>
       </div>
