@@ -1,6 +1,6 @@
 const Container = (parameters: { children?: React.ReactNode }) => {
   return (
-    <div className=" max-w-screen-xl mt-24 mx-96 border border-white ">
+    <div className=" max-w-[786px]  m-auto  mt-24  border border-white ">
       {parameters.children}
     </div>
   );
