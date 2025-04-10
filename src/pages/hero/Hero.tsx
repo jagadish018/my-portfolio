@@ -49,10 +49,10 @@ const Hero = () => {
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-          <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
+          <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl cursor-pointer">
             Developer
           </button>
-          <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
+          <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl cursor-pointer">
             Creator
           </button>
         </div>
