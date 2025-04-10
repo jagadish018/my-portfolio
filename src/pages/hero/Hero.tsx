@@ -32,18 +32,21 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full flex flex-row items-center justify-evenly p-3 gap-5">
+    <div className="w-full flex flex-col sm:flex-row items-center sm:items-start sm:h-40 gap-4 p-4">
       <img
         src="/profile.JPG"
         alt="Jagadish"
-        className="rounded-full w-32 h-32  object-cover border-2 border-gray-500"
+        className="rounded-full w-28 h-28 object-cover border p-1"
       />
-      <div className="flex flex-col px-2  w-full">
+      <div className="flex flex-col rounded-lg px-2 py-2 w-full sm:w-3/4">
         <h1 className="text-2xl sm:text-3xl font-semibold text-amber-50">
-          Jagadish C K{" "}
-          <span className="block sm:inline">(Fullstack Developer)</span>
+          Jagadish C K
+          <span className="text-xl sm:text-2xl font-normal">
+            (Fullstack Developer)
+          </span>
         </h1>
-        <div className="flex flex-wrap gap-2 justify-center sm:justify-start mt-2">
+
+        <div className="flex flex-row flex-wrap gap-2 mt-2">
           <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
             Developer
           </button>
@@ -51,7 +54,8 @@ const Hero = () => {
             Creator
           </button>
         </div>
-        <div className="flex flex-wrap justify-center sm:justify-start gap-4 mt-3">
+
+        <div className="flex flex-wrap gap-3 mt-3">
           {socialLinks.map((item, index) => (
             <a
               key={index}
@@ -59,7 +63,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               title={item.title}
-              className="text-sm text-amber-50 hover:text-blue-400 flex items-center gap-2"
+              className="text-sm text-amber-50 hover:text-blue-400 flex items-center gap-1"
             >
               {item.tag}
               <span>{item.title}</span>
@@ -70,5 +74,4 @@ const Hero = () => {
     </div>
   );
 };
-
 export default Hero;
