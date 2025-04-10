@@ -33,19 +33,22 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full px-6 sm:px-10 py-6 flex flex-col  sm:flex-row items-center justify-center gap-6 max-w-screen-md mx-auto">
-      <img
-        src="/profile.JPG"
-        alt="Jagadish"
-        className="rounded-full w-35 h-35 object-cover border p-1"
-      />
-
-      <div className="flex flex-col items-center sm:items-center w-full gap-3">
-        <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center sm:text-left">
+    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-10 max-w-screen-md mx-auto">
+      {/* Profile Image */}
+      
+        <img
+          src="/profile.JPG"
+          alt="Jagadish"
+          className="rounded-full w-40 h-40 object-cover border p-1"
+        />
+      
+      {/* Text Content */}
+      <div className="flex flex-col items-center md:items-start w-full gap-3">
+        <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
           Jagadish C K (Fullstack Developer)
         </h1>
 
-        <div className="flex flex-wrap gap-2 items-center sm:items-center">
+        <div className="flex flex-wrap gap-2 justify-center md:justify-start">
           <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
             Developer
           </button>
@@ -54,7 +57,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-3 ">
+        <div className="flex flex-wrap gap-3 justify-center md:justify-start">
           {socialLinks.map((item, index) => (
             <a
               key={index}
