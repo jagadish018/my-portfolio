@@ -13,14 +13,14 @@ const ProjectCard = ({
   description,
 }: ExperienceCardProps) => {
   return (
-    <div className="bg-[#282626] p-6 py-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+    <div className="bg-[#282626] p-4 py-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
       <h2 className="text-start text-xl font-bold text-amber-100">{emoji}</h2>
       <div className="flex flex-row flex-wrap gap-2 items-center">
         <a
           href={projectUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-amber-50 hover:text-amber-100 px-2 bg-purple-500 rounded-2xl cursor-pointer"
+          className="text-amber-50 hover:text-amber-100 px-2 bg-purple-500 rounded-3xl cursor-pointer"
         >
           {title}
         </a>
