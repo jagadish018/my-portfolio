@@ -33,16 +33,16 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-10 max-w-screen-md mx-auto">
-      {/* Profile Image */}
+    <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-3 max-w-screen-md mx-auto">
+     
       
         <img
           src="/profile.JPG"
           alt="Jagadish"
-          className="rounded-full w-40 h-40 object-cover border p-1"
+          className="rounded-full w-35 h-35 object-cover border p-1"
         />
       
-      {/* Text Content */}
+
       <div className="flex flex-col items-center md:items-start w-full gap-3">
         <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
           Jagadish C K (Fullstack Developer)
