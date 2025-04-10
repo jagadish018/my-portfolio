@@ -37,11 +37,11 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="px-4 py-4 bg-gray-700 md:flex md:items-center md:justify-between">
           <span className="text-sm text-white  sm:text-center">
-            © 2025{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+            Copyright © 2025{" "}
+            <a href="Deep learning" className="hover:underline">
+              All rights reserved by Jagadish C K
             </a>
-            . All Rights Reserved.
+           
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
             {socialLinks.map((item, index) => (
@@ -50,7 +50,6 @@ const Footer = () => {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                
                 className="text-sm text-amber-50 hover:text-blue-400 flex items-center gap-1"
               >
                 {item.tag}
