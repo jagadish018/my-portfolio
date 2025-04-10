@@ -49,7 +49,7 @@ const Hero = () => {
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-          <button className="text-sm text-blue-500 px-3 py-1 rounded-xl cursor-pointer">
+          <button className="text-sm text-blue-500 px-3 py-1 rounded-xl cursor-pointer border border-blue-500">
             Developer
           </button>
           
