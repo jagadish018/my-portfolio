@@ -2,6 +2,7 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
+
 const Hero = () => {
   const socialLinks = [
     {
@@ -32,20 +33,19 @@ const Hero = () => {
   ];
 
   return (
-    <div className="w-full md:flex md:flex-row  md:items-center  gap-4  md:justify-center">
+    <div className="w-full px-6 sm:px-10 py-6 flex flex-col sm:flex-row items-center justify-center gap-6 max-w-screen-md mx-auto">
       <img
         src="/profile.JPG"
         alt="Jagadish"
         className="rounded-full w-32 h-32 object-cover border p-1"
       />
-      <div className="flex flex-col rounded-lg px-2 py-2 w-full sm:w-3/4">
-        
-          <h1 className="text-2xl md:text-3xl font-semibold text-amber-50">
-            Jagadish C K (Fullstack Developer)
-          </h1>
-        
 
-        <div className="flex flex-row flex-wrap gap-2 mt-2">
+      <div className="flex flex-col items-start sm:items-start w-full gap-3">
+        <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center sm:text-left">
+          Jagadish C K (Fullstack Developer)
+        </h1>
+
+        <div className="flex flex-wrap gap-2">
           <button className="text-sm text-blue-500 border-2 border-blue-600 px-3 py-1 rounded-xl">
             Developer
           </button>
@@ -54,7 +54,7 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-3 mt-3">
+        <div className="flex flex-wrap gap-3">
           {socialLinks.map((item, index) => (
             <a
               key={index}
@@ -73,4 +73,5 @@ const Hero = () => {
     </div>
   );
 };
+
 export default Hero;
