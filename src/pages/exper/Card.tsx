@@ -15,7 +15,7 @@ const Card = ({
 }: ExperienceCardProps) => {
   return (
     <div className="bg-[#282626] p-4 py-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 px-9 w-fit">
-      <div className="flex flex-row flex-wrap gap-4 items-center">
+      <div className="flex flex-row flex-wrap gap-3 items-center">
         <h2 className="text-start text-xl font-bold text-amber-100">{role}</h2>
 
         <a
