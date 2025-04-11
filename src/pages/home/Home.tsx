@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Container>
-        <div className="flex flex-col gap-10 scroll-smooth">
+        <div className="flex flex-col gap-10 scroll-smooth font-[poppins]">
           <Hero />
           <About />
           <Experience />
