@@ -17,12 +17,12 @@ const ExperienceCard = ({
     <div className="bg-[#0e1117] p-4 py-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 px-8 w-fit">
       <div className="flex flex-row flex-wrap gap-2 items-center">
         <h2 className="text-start text-xl font-bold text-amber-100">{role}</h2> 
-        <div className=" flex flex-row gap-3">
+        <div className=" flex flex-row gap-2">
           <a
             href={companyUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] text-white justify-center items-center bg-purple-500 px-2 rounded-3xl text-center hover:text-amber-100"
+            className="text-sm text-white justify-center items-center bg-purple-500 px-2 rounded-3xl text-center hover:text-amber-100"
           >
             {company}
           </a>
