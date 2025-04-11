@@ -7,7 +7,7 @@ import Education from "../education/Eduction";
 import Experience from "../exper/Experience";
 
 import Hero from "../hero/Hero";
-import Interest from "../interset/Interest";
+import Interest from "../interest/Interest";
 import Projects from "../projects/Projects";
 
 const Home = () => {

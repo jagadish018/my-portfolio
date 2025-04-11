@@ -11,7 +11,4 @@ createRoot(document.getElementById("root")!).render(
             <Route path="/attributions" element={<Attributions/>}/>
         </Routes>
     </BrowserRouter>
-    
-    
-
 );
