@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       emoji: "💻⚙️",
-      title: "CPU Scedule Visualizer",
+      title: "CPU Schedule Visualizer",
       projectUrl:
         "https://github.com/jagadish018/CPU-Scheduler-Algo-Visualizer",
       description: "Developed Algorithm visualizer using React + TailwindCSS",
