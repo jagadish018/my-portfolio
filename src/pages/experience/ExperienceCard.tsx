@@ -22,7 +22,7 @@ const ExperienceCard = ({
             href={companyUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] text-white bg-purple-500 px-2 rounded-3xl hover:text-amber-100"
+            className="text-[13px] text-white bg-purple-500 px-2 rounded-3xl text-center hover:text-amber-100"
           >
             {company}
           </a>

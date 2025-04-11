@@ -4,7 +4,7 @@ import Footer from "../../components/footers/Footer";
 import About from "../about/About";
 import Connect from "../Connect/Connect";
 import Education from "../education/Eduction";
-import Experience from "../exper/Experience";
+import Experience from "../experience/Experience";
 
 import Hero from "../hero/Hero";
 import Interest from "../interest/Interest";
