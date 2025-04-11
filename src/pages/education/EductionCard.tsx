@@ -20,11 +20,11 @@ const EducationCard = ({
           {degree}
         </h2>
         <div className=" flex flex-row gap-3">
-          <span className="text-sm text-white bg-gray-600 px-2 rounded-3xl">
+          <span className="text-sm text-white  text-center bg-gray-600 px-2 p-1 rounded-3xl">
             {branch}
           </span>
 
-          <span className="text-sm text-white bg-gray-600 px-2 rounded-3xl">
+          <span className="text-sm text-white text-center bg-gray-600 px-2 p-1 rounded-3xl">
             {duration}
           </span>
         </div>

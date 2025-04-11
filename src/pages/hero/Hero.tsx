@@ -40,9 +40,10 @@ const Hero = () => {
         className="rounded-full w-38 h-38 object-cover border p-1"
       />
 
-      <div className="flex flex-col items-center md:items-start w-full gap-5 p-2">
-        <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
-          Jagadish C K (Fullstack Developer)
+      <div className="flex flex-col items-center md:items-start w-full gap-4 ">
+        
+        <h1 className="text-l md:text-3xl font-semibold text-amber-50 text-center md:text-left">
+          Jagadish C K(Fullstack Developer)
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
