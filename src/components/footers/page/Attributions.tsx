@@ -5,7 +5,7 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
-import { div } from "framer-motion/client";
+
 
 const Attributions = () => {
   const socialLinks = [
@@ -57,7 +57,13 @@ const Attributions = () => {
             {socialLinks.map((item, index) => (
               <div className="flex flex-row gap-3 items-center">
                 <span>{item.tag}</span>
-                <a href={item.url} className="hover:underline hover:text-blue-600w">{ item.title}</a>
+                <a
+                  key={index}
+                  href={item.url}
+                  className="hover:underline hover:text-blue-600w"
+                >
+                  {item.title}
+                </a>
               </div>
             ))}
           </div>
