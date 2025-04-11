@@ -12,9 +12,9 @@ const Experience = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col md:flex-row items-start justify-start gap-1 max-w-screen-md mx-auto px-4">
+    <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto px-4">
       <div className="">
-        <h1 className="text-white md:w-35 md:sticky-10 font-medium text-start md:text-center">
+        <h1 className="text-white md:w-35 md:sticky-10 font-medium text-center md:text-center">
           Work Experience
         </h1>
       </div>

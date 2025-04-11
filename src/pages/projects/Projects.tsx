@@ -32,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto px-2">
+    <div className="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto px-4">
       <div>
         <h1 className="text-white md:w-35 md:sticky-10 font-medium text-start md:text-center">
           Projects
