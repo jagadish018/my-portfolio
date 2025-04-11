@@ -1,4 +1,3 @@
-
 import { IoIosArrowForward } from "react-icons/io";
 import Container from "../../Container";
 import { NavLink } from "react-router";
@@ -6,47 +5,44 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
-
-
-  
-
+import { div } from "framer-motion/client";
 
 const Attributions = () => {
-    const socialLinks = [
-      {
-        title: "GitHub",
-        tag: <VscGithubInverted size={20} />,
-        url: "https://github.com/jagadish018",
-      },
-      {
-        title: "Instagram",
-        tag: <BiLogoInstagramAlt size={20} />,
-        url: "https://instagram.com/yourusername",
-      },
-      {
-        title: "X/Twitter",
-        tag: <FaXTwitter size={16} />,
-        url: "https://x.com/JagadishCK4056",
-      },
-      {
-        title: "LinkedIn",
-        tag: <FaLinkedin size={20} />,
-        url: "https://www.linkedin.com/in/jagadish-c-k-93b729187/",
-      },
-      {
-        title: "Leetcode",
-        tag: <SiLeetcode size={20} />,
-        url: "https://leetcode.com/u/jagadishck018/",
-      },
-    ];
+  const socialLinks = [
+    {
+      title: "GitHub by react-Icons",
+      tag: <VscGithubInverted size={20} />,
+      url: "https://react-icons.github.io/react-icons/search/#q=github",
+    },
+    {
+      title: "Instagram by react-Icons",
+      tag: <BiLogoInstagramAlt size={20} />,
+      url: "https://react-icons.github.io/react-icons/search/#q=instagram",
+    },
+    {
+      title: "X/Twitter by react-Icons",
+      tag: <FaXTwitter size={16} />,
+      url: "https://react-icons.github.io/react-icons/search/#q=twitter",
+    },
+    {
+      title: "LinkedIn by react-Icons",
+      tag: <FaLinkedin size={20} />,
+      url: "https://react-icons.github.io/react-icons/search/#q=linkedin",
+    },
+    {
+      title: "Leetcode by react-Icons",
+      tag: <SiLeetcode size={20} />,
+      url: "https://react-icons.github.io/react-icons/search/#q=leetcode",
+    },
+  ];
 
   return (
     <Container>
-      <div className=" max-w-screen-md text-white px-4 flex flex-col gap-5">
+      <div className="max-w-screen-md text-white px-4 flex flex-col gap-5">
         <div className="flex flex-row gap-2 items-center">
           <NavLink
             to="/"
-            className="hover:underline transition flex items-center gap-1"
+            className="hover:underline hover:text-blue-600 transition flex items-center gap-1"
           >
             Home <IoIosArrowForward />
           </NavLink>
@@ -57,19 +53,12 @@ const Attributions = () => {
 
         <div className="flex flex-col gap-3">
           <h2 className="text-xl">Attributions</h2>
-          <div className="flex flex-col flex-wrap gap-4 justify-center md:justify-start py-4">
+          <div className="flex flex-col gap-3 py-4">
             {socialLinks.map((item, index) => (
-              <a
-                key={index}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={item.title}
-                className="text-sm text-amber-50 hover:text-blue-400 flex items-center gap-1"
-              >
-                {item.tag}
-                <span>{item.title}</span>
-              </a>
+              <div className="flex flex-row gap-3 items-center">
+                <span>{item.tag}</span>
+                <a href={item.url} className="hover:underline hover:text-blue-600w">{ item.title}</a>
+              </div>
             ))}
           </div>
         </div>
