@@ -2,6 +2,7 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
+import { NavLink } from "react-router";
 
 const Footer = () => {
   const socialLinks = [
@@ -36,13 +37,23 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         {/* Bottom bar */}
         <div className="px-4 py-4 bg-gray-700 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-white  sm:text-center">
-            Copyright © 2025{" "}
-            <a href="Deep learning" className="hover:underline">
-              All rights reserved by Jagadish C K
+          <div className="w-full md:w-1/3 text-sm text-gray-400 text-center md:text-left ml-[-55px]">
+            Copyright © {new Date().getFullYear()} — All rights reserved by
+            Mahesh R
+          </div>
+
+          <div className="w-full md:w-1/3 flex justify-center gap-6 text-sm underline underline-offset-4 ml-20">
+            <NavLink to="/attributions" className="hover:text-white transition">
+              Attributions
+            </NavLink>
+            <NavLink to="/shout-outs" className="hover:text-white transition">
+              Shout Outs
+            </NavLink>
+            <a href="#" className="hover:text-white transition">
+              Affiliates
             </a>
-           
-          </span>
+          </div>
+
           <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
             {socialLinks.map((item, index) => (
               <a
